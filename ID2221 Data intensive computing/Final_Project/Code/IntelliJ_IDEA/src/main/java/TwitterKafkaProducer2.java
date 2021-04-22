@@ -37,10 +37,10 @@ public class TwitterKafkaProducer2 {
     private BlockingQueue<String> queue;
     private Gson gson;
     //private Callback callback;
-    public static final String CONSUMER_KEY = "svjPYK6t6UD5pSPm5GJXLdprz";
-    public static final String CONSUMER_SECRET = "JSKh1K5eT8bllEqqADzNd6toqveTwtSvD7XzSXixwrqBHnndMZ";
-    public static final String ACCESS_TOKEN = "1318173913063526401-IJL03p9E8QpAOMSHmigW31XgzucG8V";
-    public static final String TOKEN_SECRET = "MJu33lzbQayJZITD1IVYNNhCPbmeablaV9DtJ3dYc2xW0";
+    public static final String CONSUMER_KEY = "CONSUMER_KEY";
+    public static final String CONSUMER_SECRET = "CONSUMER_SECRET";
+    public static final String ACCESS_TOKEN = "ACCESS_TOKEN";
+    public static final String TOKEN_SECRET = "TOKEN_SECRET";
     public static final String HASHTAG = "#Trump";
         //define constant to configure Kafka producer
     public TwitterKafkaProducer2() {
